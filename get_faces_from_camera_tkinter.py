@@ -26,6 +26,7 @@ class Face_Register:
 
         # PLease modify window size here if needed
         self.win.geometry("1000x500")
+        self.win.resizable(True, True)
 
         # GUI left part
         self.frame_left_camera = tk.Frame(self.win)
